@@ -6,7 +6,7 @@ The program contains two main classes:
 
 ALU (Arithematic Logical Unit):
   ALU holds a dictionary that contains the opcodes:
-  self.operations = {
+  >self.operations = {
             "01" : lambda a, b: self.add(a,b),          #opcode is 01 then it is addition
             "10" : lambda a, b: self.subtract(a,b)      #opcode is 10 then it is subtraction
        }
