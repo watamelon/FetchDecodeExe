@@ -4,14 +4,20 @@ A program written in python through Jupyter Notebook file to simulate the Fetch-
 
 The program contains two main classes:
 
+.tab-1{
+	display:inline-block; width:ONE-TAB-WIDTH;
+}
+
 ALU (Arithematic Logical Unit):
   ALU holds a dictionary that contains the opcodes:
-  >self.operations = {
-           > "01" : lambda a, b: self.add(a,b),          #opcode is 01 then it is addition
-           > "10" : lambda a, b: self.subtract(a,b)      #opcode is 10 then it is subtraction
-      > }
+  >self.operations = { <br/>
+            "01" : lambda a, b: self.add(a,b),          #opcode is 01 then it is addition <br/>
+            "10" : lambda a, b: self.subtract(a,b)      #opcode is 10 then it is subtraction <br/>
+       }
        
   The add and subtract functions are dedicated to calculate in binary.
   Subtract function utilizes the two complement system for negative number.
+  
+  
   
   
