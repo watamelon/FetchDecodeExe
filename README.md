@@ -7,9 +7,9 @@ The program contains two main classes:
 ALU (Arithematic Logical Unit):
   ALU holds a dictionary that contains the opcodes:
   >self.operations = {
-            "01" : lambda a, b: self.add(a,b),          #opcode is 01 then it is addition
-            "10" : lambda a, b: self.subtract(a,b)      #opcode is 10 then it is subtraction
-       }
+           > "01" : lambda a, b: self.add(a,b),          #opcode is 01 then it is addition
+           > "10" : lambda a, b: self.subtract(a,b)      #opcode is 10 then it is subtraction
+      > }
        
   The add and subtract functions are dedicated to calculate in binary.
   Subtract function utilizes the two complement system for negative number.
