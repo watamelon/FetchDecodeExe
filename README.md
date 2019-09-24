@@ -4,10 +4,6 @@ A program written in python through Jupyter Notebook file to simulate the Fetch-
 
 The program contains two main classes:
 
-.tab-1{
-	display:inline-block; width:ONE-TAB-WIDTH;
-}
-
 ALU (Arithematic Logical Unit):
   ALU holds a dictionary that contains the opcodes:
   >self.operations = { <br/>
